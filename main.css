@@ -1,0 +1,46 @@
+body{
+    margin:0;
+}
+header{
+    background-color: #1F2937;
+    padding: 0 20% 3% 20%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #F9FAF8;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.header-link-list li{
+    display: inline;
+    margin: 0 10px;
+}
+.header-link{
+    color: #E5E7EB;
+    text-decoration: none;
+}
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.website-showcase{
+    width: 500px;
+}
+.website-showcase h1{
+    font-size: 50px;
+}
+.website-info{
+    font-size: 20px;
+}
+.sign-up-link{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px;
+    width: 100px;
+    text-decoration: none;
+    border-radius: 5%;
+}
