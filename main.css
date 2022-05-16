@@ -45,6 +45,10 @@ header{
     border-radius: 5%;
 }
 
+main{
+    padding-bottom: 50px;
+}
+
 .random-info-section{
     display:flex;
     flex-direction: column;
@@ -90,4 +94,26 @@ header{
 .quote-author{
     font-size: 18px;
     font-weight: bold;
+}
+
+.ad-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.ad{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    padding: 30px 80px;
+    width: 1000px;
+    height: 80px;
+}
+.ad .sign-up-link{
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 20px;
 }
