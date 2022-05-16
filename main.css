@@ -73,3 +73,21 @@ header{
     text-align: center;
     color: #1F2937
 }
+
+.quote-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #E5E7EB;
+    margin: 50px 0;
+    padding: 100px 30%;
+}
+.quote{
+    color: #1f2937e8;
+    font-size: 25px;
+}
+.quote-author{
+    font-size: 18px;
+    font-weight: bold;
+}
